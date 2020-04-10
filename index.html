@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra | Papel | Tesoura</title>
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>
+    </header>
+
+    <div class="scoreBoard">
+        <div id="userLabel" class="badge">Você</div>
+        <div id="computerLabel" class="badge">Computador</div>
+        <span id="userScore">0</span>:<span id="computerScore">0</span>
+    </div>
+
+    <div class="result">
+        <p>Pedra esmaga tesoura. Você ganhou!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="/imagens/pedra.svg" width="80px" height="80px">
+        </div>
+        <div class="choice" id="p">
+            <img src="/imagens/papel.svg" width="80px" height="80px">
+        </div>
+        <div class="choice" id="s">
+            <img src="/imagens/tesoura.svg" width="80px" height="80px">
+        </div>
+    </div>
+
+    <p id="actionMessage">Faça sua escolha!</p>
+    
+</body>
+<script src="index.js"></script>
+</html>
